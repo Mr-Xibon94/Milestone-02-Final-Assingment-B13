@@ -9,11 +9,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1A0B2E;
+
     color: white;
 }
 
 body {
+    background-color: #1A0B2E;
     width: 100%;
     max-width: 100rem;
     margin: 0 auto;
@@ -39,11 +40,11 @@ body {
     height: 2rem;
 }
 
-.nav-list>.nav-option{
+.nav-list>.nav-option {
     display: flex;
     list-style-type: none;
     gap: 2rem;
-    
+
 }
 
 .nav-option>li>a {
@@ -52,37 +53,123 @@ body {
 }
 
 
-.btn>.nav-btn {
+.nav-btn {
     padding: .8rem;
     display: flex;
     align-items: center;
     gap: .3rem;
-    background: transparent; 
+    background: transparent;
     border: none;
-    border-radius: 1.5rem ;
-    
+    border-radius: 1.5rem;
+
 
     background: #F7E93F;
     background: linear-gradient(8deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 0.56) 100%);
-    border-radius: 25 ;
+    border-radius: 25;
     font-size: 1.25rem;
     font-weight: 600;
-    
+
 
 }
 
 .nav-btn>a {
-        text-decoration: none;
-        background: transparent;
+    text-decoration: none;
 }
 
-.nav-btn>img {
-    background: transparent; 
-}
 
 .humburger {
     display: none;
 }
+
+
+/* its hero/banner style section.......  */
+
+#hero-section {
+    /* border: 2px solid red;  */
+    background-color: white;
+    background: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6.25rem 32.5rem;
+
+}
+
+ .hero-img {
+    text-align: center;
+    position: relative;
+    /* border: 2px solid blue;  */
+}
+
+.hero-microphone {
+    position: absolute;
+    left: 40%;
+    top: 23%;
+
+}
+
+.hero-img>p {
+    position: absolute;
+    background-color: #00FF88;
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    margin-left: 22rem;
+    margin-top: .75rem;
+    box-shadow: 0 3px 27px #00FF88;
+    border: none;
+
+}
+
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text>h1 {
+    margin-top: 2.5rem ;
+    margin-bottom: .5rem;
+}
+
+.hero-text>p {
+    margin-bottom: 1.5rem;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    gap:.5rem ;
+}
+
+.hero-text>h1 {
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.hero-text>p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.subs-btn {
+
+    background: transparent;
+    border: 1px solid #00FF88;
+
+
+}
+
+.subs-btn>a {
+    color: #00FF88;
+    
+    font-size: 1rem;
+}
+
+
+
+
 
 
 
@@ -99,14 +186,15 @@ body {
     .web-title>img {
 
         width: 8.56rem;
-        height: 1.25rem ;
+        height: 1.25rem;
     }
 
     .humburger {
         display: inline;
     }
 
-    .nav-list, .btn {
+    .nav-list,
+    .btn {
         display: none;
     }
 }

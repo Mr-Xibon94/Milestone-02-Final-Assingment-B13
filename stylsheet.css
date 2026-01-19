@@ -223,10 +223,6 @@ body {
 
 }
 
-.card-img>img {
-    /* background-color: #00FF88; */
-    color: #00FF88;
-}
 
 
 
@@ -298,6 +294,26 @@ body {
 
     .hero-text>h1 {
         font-size: 2.5rem;
+    }
+
+    /* it is main about section  */
+
+    #main-section-one {
+        padding: 2.5rem 1.25rem;
+    }
+
+    .rating-card>.card>h1 {
+        font-size: 2.5rem; 
+    }
+
+    .rating-card {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+
+    }
+
+    .main-about>h2 {
+        font-size: 2.5rem; 
     }
 
 

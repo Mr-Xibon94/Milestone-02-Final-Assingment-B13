@@ -202,7 +202,7 @@ body {
 
 .rating-card {
     display: grid;
-    grid-template-columns: repeat(4,4fr);
+    grid-template-columns: repeat(4, 4fr);
     margin-bottom: 7.5rem;
     text-align: center;
     gap: 5rem;
@@ -227,7 +227,7 @@ body {
 
 #main-section-two {
     padding: 7.5rem 12.5rem 7.5rem 12.5rem;
-    background-color: #230E3D ;
+    background-color: #230E3D;
     /* border: 1px solid red;  */
 }
 
@@ -236,12 +236,13 @@ body {
     margin-bottom: 2.5rem;
     text-align: center;
 }
+
 /* card  */
 
 .choosetechwave-card {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 1.875rem;
 }
 
@@ -254,9 +255,9 @@ body {
     grid-column: span 2;
 }
 
-.choose-card {        
+.choose-card {
     border-radius: 2.5rem;
-    background-color: #351165 ;
+    background-color: #351165;
     padding: 2.5rem;
 }
 
@@ -277,6 +278,76 @@ body {
     font-size: 1rem;
     font-weight: 200;
 }
+
+
+
+/* it is main section part three style area  */
+
+#main-section-three {
+
+    padding: 7.5rem 12.5rem 7.5rem 12.5rem;
+    margin: 0 auto;
+    /* border: 2px solid red;  */
+}
+
+#main-section-three>h1 {
+
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+
+
+
+
+}
+
+.video-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.88rem;
+
+}
+
+.video-card-All {
+    background-color: #351165;
+    border-radius: 2rem;
+
+}
+
+.video-card-All>iframe {
+    width: 23.75rem;
+    height: 13.375rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.video-card-All>h2 {
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1.5rem 1.5rem .375rem 1.5rem;
+
+}
+
+
+.video-card-All>p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.668);
+    font-weight: 200;
+    margin: .375rem 1.5rem .375rem 1.5rem;
+}
+
+.video-card-All>h5 {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    color: #00FF88;
+    margin: 1rem 1.5rem 1.5rem 1.5rem;
+
+}
+
+
 
 
 
@@ -318,6 +389,7 @@ body {
 /* For mobile screen  */
 @media screen and (max-width:576px) {
     /* its nav mobile screen section  */
+
 
     #header-container>.nav-container {
         padding: 1.25rem;
@@ -384,18 +456,18 @@ body {
     }
 
     .rating-card>.card>h1 {
-        font-size: 2.5rem; 
+        font-size: 2.5rem;
     }
 
     .rating-card {
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-        margin-bottom: 1rem; 
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-bottom: 1rem;
 
     }
 
     .main-about>h2 {
-        font-size: 2rem; 
+        font-size: 2rem;
     }
 
     /* its main section two mobile screen for choose techwave  */
@@ -410,10 +482,10 @@ body {
     }
 
     .choosetechwave-card {
-    /* display: grid;  */
-    grid-template-columns: repeat(1,1fr);
-    /* grid-template-rows: repeat(3,1fr);  */
-    gap: 1rem;
+        /* display: grid;  */
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-rows: repeat(3,1fr);  */
+        gap: 1rem;
     }
 
     .choose-card {
@@ -423,5 +495,26 @@ body {
         grid-row: span 1;
     }
 
+    /* it is the mobile screen design for video card section  */
+
+    #main-section-three {
+
+        padding: 2.5rem 1.25rem;
+        margin: 0 auto;
+        /* border: 2px solid red;  */
+    }
+
+    .video-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #main-section-three>h1 {
+
+        font-size: 2rem;
+    }
+
+    .video-card-All>h2 {
+        font-size: 1.25rem;
+    }
 
 }

@@ -302,6 +302,23 @@ body {
 
 }
 
+/* .tube-video {
+    position: relative;
+     width: 23.75rem;
+    height: 13.375rem;
+    
+
+} */
+
+/* .play-btn {
+    position: absolute;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: -200px;
+} */
+
 .video-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -345,6 +362,73 @@ body {
     color: #00FF88;
     margin: 1rem 1.5rem 1.5rem 1.5rem;
 
+}
+
+/* it is the meet the host style section  */
+
+.meet-host {
+    margin-top: 7.5rem;
+}
+
+.meet-host>h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+}
+
+.meet-card {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2.5rem;
+    background-color: #351165;
+    border-radius: 2.5rem;
+
+}
+
+
+.meet-text>h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.meet-text>p {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.668);
+    margin-bottom: 1rem;
+
+}
+
+.meet-text>.meet-webicon {
+    
+    display: flex;
+    
+    gap: .75rem;
+    
+}
+
+
+
+.webicon {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    
+    padding: .5rem;
+
+    border: 1px solid #533C72;
+    border-radius: 50%;
 }
 
 
@@ -515,6 +599,42 @@ body {
 
     .video-card-All>h2 {
         font-size: 1.25rem;
+    }
+
+    /* it is meet the host mobile screen style  */
+
+    .meet-card {
+    flex-direction: column;
+    
+    align-items: center;
+    
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #351165;
+    border-radius: 2.5rem;
+
+    }
+
+    .meet-host>h1 {
+        font-size: 2rem;
+    }
+
+    .meet-img {
+        
+        width: 9.375rem ;
+        height: 9.375rem;
+    }
+
+    .meet-text {
+        text-align: center;
+    }
+
+    .meet-text>h2 {
+        font-size: 1.5rem;
+    }
+
+    .meet-webicon{
+        justify-content: center;
     }
 
 }

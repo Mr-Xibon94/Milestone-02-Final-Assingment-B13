@@ -86,7 +86,7 @@ body {
 
 #hero-section {
     /* border: 2px solid red;  */
-    background-color: white;
+   
     background: url(./assets/hero-bg.png);
     background-size: cover;
     background-position: center;
@@ -138,6 +138,7 @@ body {
 
 .hero-text>p {
     margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.668);;
 }
 
 .hero-btn {
@@ -180,8 +181,10 @@ body {
 
 .main-about {
 
-    display: grid;
+    display: grid; 
     text-align: center;
+    padding: 2.5rem 1.25rem;
+    
 }
 
 .main-about>h2 {
@@ -192,6 +195,10 @@ body {
 .main-about>p {
     font-size: 1rem;
     font-weight: 300;
+    color: rgba(255, 255, 255, 0.668);;
+}
+.about-text {
+    color: rgba(255, 255, 255, 0.668);;
 }
 
 .hr-line {
@@ -220,6 +227,7 @@ body {
 
     font-size: 1rem;
     font-weight: 300;
+    color: rgba(255, 255, 255, 0.668);;
 
 }
 
@@ -584,6 +592,7 @@ body {
     .main-about>h2 {
         font-size: 2rem;
     }
+
 
     /* its main section two mobile screen for choose techwave  */
 

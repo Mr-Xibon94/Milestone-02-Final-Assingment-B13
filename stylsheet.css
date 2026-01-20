@@ -473,6 +473,23 @@ body {
 
 
 
+/* its animation section  */
+
+@keyframes new-icon-animat {
+    from {
+        transform:translateX(-20px);
+    }
+    to {
+        transform:translateX(20px);
+    }
+}
+
+
+.hero-microphone {
+    /* position: relative;  */
+    animation: new-icon-animat 2s ease-in-out 1s infinite alternate ;
+}
+
 
 
 

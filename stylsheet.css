@@ -287,7 +287,6 @@ body {
 
     padding: 7.5rem 12.5rem 7.5rem 12.5rem;
     margin: 0 auto;
-    /* border: 2px solid red;  */
 }
 
 #main-section-three>h1 {
@@ -319,7 +318,7 @@ body {
 
 .video-card-All>iframe {
     width: 100%;
-    height: 200px; 
+    height: 200px;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
 }
@@ -389,11 +388,11 @@ body {
 }
 
 .meet-text>.meet-webicon {
-    
+
     display: flex;
-    
+
     gap: .75rem;
-    
+
 }
 
 
@@ -404,17 +403,64 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
-
     width: 2.5rem;
     height: 2.5rem;
-
-    
     padding: .5rem;
-
     border: 1px solid #533C72;
     border-radius: 50%;
+}
+
+
+/* it is footer style section  */
+
+#body-footer {
+    background: url(./assets/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 7.5rem 12.5rem;
+    margin: 0 auto;
+
+}
+
+
+
+.footer-container {
+    text-align: center;
+}
+
+
+.footer-icon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+.footer-icon-all>a {
+    display: flex;
+    align-self: center;
+    gap: .5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.668);
+}
+
+.copyright-tag {
+
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.668);
+}
+
+
+.footer-techwave {
+    width: 25.625rem;
+    margin-bottom: 2rem;
+
 }
 
 
@@ -485,7 +531,6 @@ body {
 
     #hero-section {
         padding: 2.5rem 1.25rem;
-        width: 29.75;
         height: 29.1rem;
         margin: 0 auto;
 
@@ -552,9 +597,7 @@ body {
     }
 
     .choosetechwave-card {
-        /* display: grid;  */
         grid-template-columns: repeat(1, 1fr);
-        /* grid-template-rows: repeat(3,1fr);  */
         gap: 1rem;
     }
 
@@ -590,14 +633,14 @@ body {
     /* it is meet the host mobile screen style  */
 
     .meet-card {
-    grid-template-columns: repeat(1,1fr);
-    
-    justify-items: center;
-    
-    
-    padding: 1.5rem;
-    background-color: #351165;
-    border-radius: 2.5rem;
+        grid-template-columns: repeat(1, 1fr);
+
+        justify-items: center;
+
+
+        padding: 1.5rem;
+        background-color: #351165;
+        border-radius: 2.5rem;
 
     }
 
@@ -606,8 +649,8 @@ body {
     }
 
     .meet-img {
-        
-        width: 9.375rem ;
+
+        width: 9.375rem;
         height: 9.375rem;
     }
 
@@ -619,8 +662,39 @@ body {
         font-size: 1.5rem;
     }
 
-    .meet-webicon{
+    .meet-webicon {
         justify-content: center;
+    }
+
+    /* it is style for mobile screen for footer section  */
+
+    .footer-container {
+        display: grid;
+
+        padding: 2.5rem 1.5rem;
+        justify-items: center;
+    }
+
+    .footer-icon {
+        display: grid;
+        gap: .5rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .footer-techwave {
+        margin-top: 1.5rem;
+        width: 13.68rem;
+    }
+
+
+
+
+    #body-footer {
+        margin: 0 auto;
+
+        padding: 2.5rem 1.25rem 2.5rem 1.5rem;
+        background-size: 160% 100%;
     }
 
 }
